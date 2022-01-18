@@ -22,7 +22,13 @@ Funciones 1 -  Crea una funcion llamada "mayusculas" que:
 // CREA TU FUNCION MAYUSCULAS aqui:
 
 
+function mayusculas(nombres) {
+    for(let i = 0; i <= nombres.length; i++){
+        let nombre = nombres[i].toUpperCase();
+        console.log(nombre);
+    }
 
+}
 
 /*
 Funciones 2 -  Crea una funcion llamada "calculateDogAge" que: 
@@ -36,8 +42,11 @@ Funciones 2 -  Crea una funcion llamada "calculateDogAge" que:
 
 // CREA TU FUNCION calculateDogAge aqui:
 
+function calculateDogAge(edad_Humano){
+    edad_perro= edad_Humano*(7)
+    console.log(`Tu perro tiene ${this.edad_perro} años perro`)
 
-
+}
 
 
 
@@ -60,23 +69,36 @@ myCar.raza = raza
 
 
 
-
-// 2
-
-let myCar2 = {
-  make: 'Ford',
-  model: 'Mustang'
-}
-
-console.log(myCar2)
 /*
 
 B) Crea 3 objectos  con diferentes valores.
-
-C) Con un console.log escribe el nombre del primer objeto, el color del segundo, y la raza del tercero. Lo puedes hacer en una sola línea o en 3 lineas aparte. 
-
-
 */
+let Perro1 = {
+name:'tammy',
+color:'blanco',
+raza :'corri'
+}
+
+let Perro2 = {
+name:'corcholata',
+color: 'cafae',
+raza : 'labrador'
+}
+let Perro3 = {
+name:'brajy',
+color: 'negro',
+raza : 'puddle'
+}
+
+/*
+C) Con un console.log escribe el nombre del primer objeto, el color del segundo, y la raza del tercero. Lo puedes hacer en una sola línea o en 3 lineas aparte. 
+*/
+console.log((Perro1.name))
+console.log((Perro2.color))
+console.log((Perro3.raza))
+
+
+
 
 
 
